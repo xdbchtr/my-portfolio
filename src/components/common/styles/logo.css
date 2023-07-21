@@ -5,3 +5,9 @@
 	padding: 0;
   width: 60px;
 }
+
+@media (max-width: 760px) {
+  .logo {
+    display: none;
+  }
+}
