@@ -36,7 +36,7 @@ const INFO = {
 		{
 			title: "Aggregator Data",
 			description:
-				"A Data-Center for all-Employee of PT. Jasa Marga, Tbk",
+				"A Data-Center for all-Employee",
 			logo: "https://companieslogo.com/img/orig/JSMR.JK-b8d01527.png?t=1596189608",
 			linkText: "This Project is Private",
 			link: "",
@@ -45,7 +45,7 @@ const INFO = {
 		{
 			title: "SMAP ( Sistem Monitoring Anti-Penyuapan )",
 			description:
-				"Anti-Bribery Monitoring Sytem of PT. Jasa Marga, Tbk",
+				"Anti-Bribery Monitoring Sytem",
 			logo: "https://companieslogo.com/img/orig/JSMR.JK-b8d01527.png?t=1596189608",
 			linkText: "This Project is Private",
 			link: "",
@@ -54,7 +54,7 @@ const INFO = {
 		{
 			title: "AROMA WBS",
 			description:
-				"a Whistle-blowing Web Application of PT. Jasa Marga, Tbk",
+				"a Whistle-blowing Web Application",
 			logo: "https://companieslogo.com/img/orig/JSMR.JK-b8d01527.png?t=1596189608",
 			linkText: "This Project is Private",
 			link: "",
