@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -145,7 +146,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-projects">
-							<AllProjects />
+              <Link to="/projects" className="btn-projects">Go To Projects</Link>
 						</div>
 
 						<div className="homepage-after-title">

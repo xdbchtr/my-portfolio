@@ -66,7 +66,21 @@ const INFO = {
       linkText: "This Project is Private",
 			link: "",
     },
-		{
+    {
+      title: "Sistem Membership Parkir dan Emisi Pasar Jaya",
+      description: "Parking System and Emmision System of Pasar Jaya",
+      logo: "https://media.licdn.com/dms/image/C561BAQGwDgx6359rhA/company-background_10000/0/1601437961453?e=1690254000&v=beta&t=aEgui4Zy6sgEpI9ouaLsuipGvjpKfw3Z6v5IjwwX1JE",
+      linkText: "This Project is Private",
+			link: "",
+    },
+    {
+      title: "Samudera Project Logistic Shipping",
+      description: "Samudera Indonesia Project for estimating cost of delivery",
+      logo: "https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/1e68f0110dcf7dc26f8e4efa25577378.jpg",
+      linkText: "This Project is Private",
+			link: "",
+    },
+    {
 			title: "Erista Garden Company Profile",
 			description:
 				"a Company Profile of Erista Garden Yogyakarta",
@@ -74,13 +88,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://eristagarden.com",
 		},
-    {
-      title: "Samudera Project Logistic Shipping",
-      description: "Samudera Indonesia Project for estimating cost of delivery",
-      logo: "https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/1e68f0110dcf7dc26f8e4efa25577378.jpg",
-      linkText: "This Project is Private",
-			link: "",
-    }
 	],
 
   skillSet: [
