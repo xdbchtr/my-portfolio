@@ -42,6 +42,15 @@ const INFO = {
 			link: "",
 		},
 
+    {
+      title: "JM-CLICK",
+			description:
+				"all-Employee acitivities all-in-one application",
+			logo: "https://companieslogo.com/img/orig/JSMR.JK-b8d01527.png?t=1596189608",
+			linkText: "This Project is Private",
+			link: "",
+    },
+
 		{
 			title: "SMAP ( Sistem Monitoring Anti-Penyuapan )",
 			description:
@@ -69,7 +78,7 @@ const INFO = {
     {
       title: "Sistem Membership Parkir dan Emisi Pasar Jaya",
       description: "Parking System and Emmision System of Pasar Jaya",
-      logo: "https://media.licdn.com/dms/image/C561BAQGwDgx6359rhA/company-background_10000/0/1601437961453?e=1690254000&v=beta&t=aEgui4Zy6sgEpI9ouaLsuipGvjpKfw3Z6v5IjwwX1JE",
+      logo: "https://pasarjaya.co.id/storage/pasar/1678184338pasar-cipete.jpg",
       linkText: "This Project is Private",
 			link: "",
     },

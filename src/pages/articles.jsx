@@ -8,14 +8,19 @@ import Article from "../components/articles/article";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
+
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchData } from "../data_center/article-actions";
 
 import "./styles/articles.css";
 
 const Articles = () => {
+  const dispatch = useDispatch();
+  const data = useSelector((state) => state.articles.data);
 	useEffect(() => {
 		window.scrollTo(0, 0);
-	}, []);
+    dispatch(fetchData());
+	}, [dispatch]);
 
 	const currentSEO = SEO.find((item) => item.page === "articles");
 
@@ -41,26 +46,22 @@ const Articles = () => {
 
 					<div className="articles-main-container">
 						<div className="title articles-title">
-							{INFO.articles.title}
-						</div>
-
-						<div className="subtitle articles-subtitle">
-							{INFO.articles.description}
+            {INFO.articles.title}
 						</div>
 
 						<div className="articles-container">
 							<div className="articles-wrapper">
-								{myArticles.map((article, index) => (
+								{data.map((article, index) => (
 									<div
 										className="articles-article"
-										key={(index + 1).toString()}
+										key={article._id}
 									>
 										<Article
 											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
+											date={'2023-07-01'}
+											title={article.title}
+											description={article.description}
+											link={"/article/" + article._id}
 										/>
 									</div>
 								))}
